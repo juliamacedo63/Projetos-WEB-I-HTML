@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro de Usuário</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de Usuário</h1>
+      <nav>
+        <ul>
+          <li><a href = "#nome">Informações pessoais</a></li>
+          <li><a href = "#pequena biografia">Biografia</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Formulário de Cadastro</h2>
+    <form>
+      <label id="nome" for="nome">Nome Completo:</label>
+      <input type="text" id="nome">
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+      <br><br>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha">
+      <br><br>
+
+      <label for="genero">Gênero:</label>
+      <select id="genero">
+        <option>Masculino</option>
+        <option>Feminino</option>
+      </select>
+      <br><br>
+
+      <label for="interesses">Interesses:</label>
+      <br>
+      <label>
+        <input type="checkbox" name="interesses" value="jogar">
+        Jogar
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="interesses" value="estudar">
+        estudar
+      </label>
+      <br><br>
+
+      <label for="biografia" id ="pequena biografia">Biografia:</label>
+      <br>
+      <textarea id="biografia" name="biografia" rows="4" cols="50"></textarea>
+      <br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
