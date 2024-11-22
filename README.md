@@ -2,9 +2,6 @@
 
 Este repositório contém os projetos desenvolvidos na disciplina de "WEB I – HTML". Cada projeto está organizado em uma pasta, com uma estrutura padronizada para facilitar o gerenciamento e visualização dos arquivos. Dentro de cada pasta, você encontrará as subpastas **img** (para imagens) e **pages** (para outros arquivos HTML). A página principal de cada projeto é o arquivo `index.html`.
 
-## Estrutura do Repositório
-
-
 ## Projetos
 
 1. **[APRESENTAÇÃO PESSOAL](APRESENTAÇÃO%20PESSOAL)**
